@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Układ strony</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+        .header {
+            background-color: red;
+            height: 50px;
+        }
+        .container {
+            display: flex;
+            height: calc(100% - 50px);
+        }
+        .left-section {
+            background-color: blue;
+            width: 30%;
+        }
+        .right-section {
+            background-color: green;
+            width: 70%;
+        }
+    </style>
+</head>
+<body>
+    <div class="header"></div>
+    <div class="container">
+        <div class="left-section"></div>
+        <div class="right-section"></div>
+    </div>
+</body>
+</html>
